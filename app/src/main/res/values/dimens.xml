@@ -3,7 +3,8 @@
 <resources>
     <dimen name="ButtonHeight">175dp</dimen>
     <dimen name="ButtonWidth">175dp</dimen>
-    <dimen name="TextViewWidth"></dimen>
+    <dimen name="TextViewWidth">250dp</dimen>
+    <dimen name="TextViewHeight">50dp</dimen>
 
 
 </resources>

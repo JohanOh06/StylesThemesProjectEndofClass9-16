@@ -10,7 +10,7 @@
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="168dp"
+        android:layout_width="@dimen/ButtonWidth"
         android:layout_height="@dimen/ButtonHeight"
         android:backgroundTint="#116E15"
         android:onClick="tired"
@@ -28,7 +28,7 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="181dp"
+        android:layout_width="@dimen/ButtonWidth"
         android:layout_height="@dimen/ButtonHeight"
         android:backgroundTint="#F44336"
         android:onClick="mad"
@@ -46,7 +46,7 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="173dp"
+        android:layout_width="@dimen/ButtonWidth"
         android:layout_height="@dimen/ButtonHeight"
         android:backgroundTint="#076FC1"
         android:onClick="sad"
@@ -64,16 +64,16 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="363dp"
-        android:layout_height="51dp"
+        android:layout_width="@dimen/TextViewWidth"
+        android:layout_height="@dimen/TextViewHeight"
         android:text="How do you feel today?"
-        android:textSize="32sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintHorizontal_bias="0.614"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.027" />
+        app:layout_constraintVertical_bias="0.023" />
 
     <Button
         android:id="@+id/button"
@@ -87,7 +87,7 @@
         android:theme="@style/Button.White"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintHorizontal_bias="0.127"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.268"
@@ -96,22 +96,22 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="285dp"
-        android:layout_height="38dp"
+        android:layout_width="@dimen/ButtonWidth"
+        android:layout_height="@dimen/TextViewHeight"
         android:text="Please choose a mood"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.587"
+        app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.129"
+        app:layout_constraintVertical_bias="0.115"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="262dp"
-        android:layout_height="32dp"
+        android:layout_width="@dimen/ButtonWidth"
+        android:layout_height="@dimen/TextViewHeight"
         android:text=""
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
